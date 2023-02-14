@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  postgres:
+    image: postgres:10.14
+    volumes:
+      - ./db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=api
+    ports:
+      - 5432:5432
