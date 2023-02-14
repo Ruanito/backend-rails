@@ -1,0 +1,16 @@
+current directory: /Users/ruanitosantos/project/backend-rails/testing/jfrog/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/ruanitosantos/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/ruanitosantos/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20230214-23269-15wk51v.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ruanitosantos/project/backend-rails/testing/jfrog/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/ruanitosantos/project/backend-rails/testing/jfrog/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/ruanitosantos/project/backend-rails/testing/jfrog/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20230214-23269-1wgh1al/bootsnap
